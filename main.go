@@ -154,7 +154,7 @@ import (
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/ygo"              // 游戏王相关插件
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/ymgal"            // 月幕galgame
 
-	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/wtf"           // 鬼东西
+	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/wtf" // 鬼东西
 
 	//                               ^^^^                               //
 	//                          ^^^^^^^^^^^^^^                          //
@@ -287,7 +287,7 @@ func init() {
 	}
 	config.W = []*driver.WSClient{driver.NewWebSocketClient(*url, *token)}
 	config.Z = zero.Config{
-		NickName:       append([]string{*adana},"甲斐健太",),
+		NickName:       append([]string{*adana}, "甲斐健太"),
 		CommandPrefix:  *prefix,
 		SuperUsers:     sus,
 		RingLen:        *rsz,
