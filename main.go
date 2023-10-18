@@ -86,7 +86,7 @@ import (
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/dish"             // 程序员做饭指南
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/drawlots"         // 多功能抽签
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/dress"            // 女装
-	//_ "github.com/FloatTech/ZeroBot-Plugin/plugin/driftbottle"      // 漂流瓶
+	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/driftbottle"      // 漂流瓶
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/emojimix"         // 合成emoji
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/event"            // 好友申请群聊邀请事件处理
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/font"             // 渲染任意文字到图片
@@ -154,7 +154,7 @@ import (
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/ygo"              // 游戏王相关插件
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/ymgal"            // 月幕galgame
 
-	// _ "github.com/FloatTech/ZeroBot-Plugin/plugin/wtf"           // 鬼东西
+	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/wtf"           // 鬼东西
 
 	//                               ^^^^                               //
 	//                          ^^^^^^^^^^^^^^                          //
